@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Sticky Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <i class="fas fa-utensils"></i>
+                    <span>Tanduriwala</span>
+                </div>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="reservations.html">Reservations</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+                <button class="mobile-toggle" id="mobileToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="page-header-overlay"></div>
+        <div class="page-header-image" style="background-image: url('https://images.unsplash.com/photo-1706977642219-ce73fefc6fa3?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');"></div>
+        <div class="page-header-content">
+            <h1>Get In Touch</h1>
+            <p>We'd love to hear from you</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section section-padding">
+        <div class="container">
+            <div class="contact-wrapper">
+                <!-- Contact Information -->
+                <div class="contact-info-section">
+                    <div class="section-header">
+                        <span class="section-label">Reach Out</span>
+                        <h2 class="section-title">Contact Information</h2>
+                        <p class="section-subtitle">Connect with us through any of these channels</p>
+                    </div>
+
+                    <div class="contact-details">
+                        <div class="contact-detail-card glass-card">
+                            <div class="contact-detail-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-detail-content">
+                                <h3>Visit Us</h3>
+                                <p>123 Gourmet Street<br>Manhattan, NY 10001<br>United States</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-detail-card glass-card">
+                            <div class="contact-detail-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="contact-detail-content">
+                                <h3>Call Us</h3>
+                                <p><a href="tel:+15551234567">+91 1234567890</a><br>
+                                <a href="tel:+15557654321">+91 1234567890</a><br>
+                                Mon-Sun: 10:00 AM - 10:00 PM</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-detail-card glass-card">
+                            <div class="contact-detail-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-detail-content">
+                                <h3>Email Us</h3>
+                                <p><a href="mailto:info@legourmet.com">info@legourmet.com</a><br>
+                                <a href="mailto:reservations@legourmet.com">reservations@legourmet.com</a><br>
+                                Response within 24 hours</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-detail-card glass-card">
+                            <div class="contact-detail-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="contact-detail-content">
+                                <h3>Opening Hours</h3>
+                                <p><strong>Saturday - Sunday</strong><br>
+                                Lunch: 12:00 PM - 3:00 PM<br>
+                                Dinner: 5:00 PM - 11:00 PM<br>
+                                <strong>Monday:</strong> Special</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-connect">
+                        <h3>Connect With Us</h3>
+                        <div class="social-links-large">
+                            <a href="#" class="social-link-large">
+                                <i class="fab fa-facebook-f"></i>
+                                <span>Facebook</span>
+                            </a>
+                            <a href="#" class="social-link-large">
+                                <i class="fab fa-instagram"></i>
+                                <span>Instagram</span>
+                            </a>
+                            <a href="#" class="social-link-large">
+                                <i class="fab fa-twitter"></i>
+                                <span>Twitter</span>
+                            </a>
+                            <a href="#" class="social-link-large">
+                                <i class="fab fa-youtube"></i>
+                                <span>YouTube</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form-section">
+                    <form class="contact-form glass-card" id="contactForm">
+                        <h3>Send Us a Message</h3>
+                        <p class="form-description">Have questions or feedback? Fill out the form below and we'll get back to you shortly.</p>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="contactName">
+                                    <i class="fas fa-user"></i>
+                                    Full Name *
+                                </label>
+                                <input type="text" id="contactName" name="name" required placeholder="John Doe">
+                            </div>
+                            <div class="form-group">
+                                <label for="contactEmail">
+                                    <i class="fas fa-envelope"></i>
+                                    Email Address *
+                                </label>
+                                <input type="email" id="contactEmail" name="email" required placeholder="john.doe@example.com">
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="contactPhone">
+                                    <i class="fas fa-phone"></i>
+                                    Phone Number
+                                </label>
+                                <input type="tel" id="contactPhone" name="phone" placeholder="+91 1234567890">
+                            </div>
+                            <div class="form-group">
+                                <label for="contactSubject">
+                                    <i class="fas fa-tag"></i>
+                                    Subject *
+                                </label>
+                                <select id="contactSubject" name="subject" required>
+                                    <option value="">Select Subject</option>
+                                    <option value="reservation">Reservation Inquiry</option>
+                                    <option value="menu">Menu & Dietary Questions</option>
+                                    <option value="event">Private Events</option>
+                                    <option value="feedback">Feedback & Suggestions</option>
+                                    <option value="career">Career Opportunities</option>
+                                    <option value="partnership">Partnership Inquiry</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="contactMessage">
+                                <i class="fas fa-comment-alt"></i>
+                                Your Message *
+                            </label>
+                            <textarea id="contactMessage" name="message" rows="6" required placeholder="Tell us how we can help you..."></textarea>
+                        </div>
+
+                        <div class="form-group checkbox-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="contactNewsletter" name="newsletter">
+                                <span>Subscribe to our newsletter for updates and special offers</span>
+                            </label>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
+                        </button>
+
+                        <p class="form-note">* Required fields. We typically respond within 24 hours during business days.</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section section-padding dark-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Find Us</span>
+                <h2 class="section-title">Our Location</h2>
+                <p class="section-subtitle">Visit us at the heart of Manhattan</p>
+            </div>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3766.2573955146963!2d76.77215727521023!3d19.271169681974005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd01986ab123661%3A0xe621a15f40732f79!2sTandooriwala%20Parbhani!5e0!3m2!1sen!2sin!4v1765270338314!5m2!1sen!2sin" 
+                    width="100%" 
+                    height="500" 
+                    style="border:0; border-radius: 20px;" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
+            </div>
+            <div class="map-info">
+                <div class="map-info-card glass-card">
+                    <i class="fas fa-car"></i>
+                    <div>
+                        <h4>Parking</h4>
+                        <p>Valet parking available. Street parking nearby.</p>
+                    </div>
+                </div>
+                <div class="map-info-card glass-card">
+                    <i class="fas fa-subway"></i>
+                    <div>
+                        <h4>Public Transport</h4>
+                        <p>Subway: Lines 1, 2, 3. Bus: M15, M20</p>
+                    </div>
+                </div>
+                <div class="map-info-card glass-card">
+                    <i class="fas fa-wheelchair"></i>
+                    <div>
+                        <h4>Accessibility</h4>
+                        <p>Wheelchair accessible entrance and facilities.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section section-padding">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Help Center</span>
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <p class="section-subtitle">Quick answers to common questions</p>
+            </div>
+            <div class="faq-grid">
+                <div class="faq-item glass-card">
+                    <div class="faq-question">
+                        <i class="fas fa-question-circle"></i>
+                        <h3>Do I need a reservation?</h3>
+                    </div>
+                    <p class="faq-answer">Reservations are highly recommended, especially for dinner service and weekends. Walk-ins are welcome subject to availability.</p>
+                </div>
+                <div class="faq-item glass-card">
+                    <div class="faq-question">
+                        <i class="fas fa-question-circle"></i>
+                        <h3>What is the dress code?</h3>
+                    </div>
+                    <p class="faq-answer">We maintain a smart casual dress code. While jackets are not required, we ask guests to avoid athletic wear and flip-flops.</p>
+                </div>
+                <div class="faq-item glass-card">
+                    <div class="faq-question">
+                        <i class="fas fa-question-circle"></i>
+                        <h3>Can you accommodate dietary restrictions?</h3>
+                    </div>
+                    <p class="faq-answer">Absolutely! We cater to various dietary needs including vegetarian, vegan, gluten-free, and allergy-related requirements. Please inform us when booking.</p>
+                </div>
+                <div class="faq-item glass-card">
+                    <div class="faq-question">
+                        <i class="fas fa-question-circle"></i>
+                        <h3>Do you host private events?</h3>
+                    </div>
+                    <p class="faq-answer">Yes! We have private dining rooms available for events ranging from 10 to 50 guests. Contact us for more details and custom menus.</p>
+                </div>
+                <div class="faq-item glass-card">
+                    <div class="faq-question">
+                        <i class="fas fa-question-circle"></i>
+                        <h3>Is there a cancellation policy?</h3>
+                    </div>
+                    <p class="faq-answer">We request 24 hours notice for cancellations. For parties of 6 or more, we require 48 hours notice.</p>
+                </div>
+                <div class="faq-item glass-card">
+                    <div class="faq-question">
+                        <i class="fas fa-question-circle"></i>
+                        <h3>Do you offer gift cards?</h3>
+                    </div>
+                    <p class="faq-answer">Yes! Gift cards are available in any denomination and can be purchased online or in person. They make perfect gifts for food lovers.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <div class="footer-logo">
+                        <i class="fas fa-utensils"></i>
+                        <span>Tanduriwala</span>
+                    </div>
+                    <p class="footer-description">Experience the finest culinary journey with our exquisite dishes crafted by award-winning chefs.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="reservations.html">Reservations</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Information</h3>
+                    <ul class="footer-links">
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to receive updates and special offers</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Tanduriwala. All rights reserved. Crafted with passion.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>

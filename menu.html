@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Menu</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Sticky Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <i class="fas fa-utensils"></i>
+                    <span>Tanduriwala</span>
+                </div>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html" class="active">Menu</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="reservations.html">Reservations</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <button class="mobile-toggle" id="mobileToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="page-header-overlay"></div>
+        <div class="page-header-image" style="background-image: url('https://images.unsplash.com/photo-1555244162-803834f70033?w=1920&q=80');"></div>
+        <div class="page-header-content">
+            <h1>Our Exquisite Menu</h1>
+            <p>A curated selection of culinary masterpieces</p>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu-section section-padding">
+        <div class="container">
+            <!-- Category Tabs -->
+            <div class="menu-tabs">
+                <button class="menu-tab active" data-category="breakfast">
+                    <i class="fas fa-mug-hot"></i>
+                    <span>Breakfast</span>
+                </button>
+                <button class="menu-tab" data-category="lunch">
+                    <i class="fas fa-hamburger"></i>
+                    <span>Lunch</span>
+                </button>
+                <button class="menu-tab" data-category="dinner">
+                    <i class="fas fa-drumstick-bite"></i>
+                    <span>Dinner</span>
+                </button>
+                <button class="menu-tab" data-category="drinks">
+                    <i class="fas fa-wine-glass-alt"></i>
+                    <span>Drinks</span>
+                </button>
+                <button class="menu-tab" data-category="desserts">
+                    <i class="fas fa-ice-cream"></i>
+                    <span>Desserts</span>
+                </button>
+            </div>
+
+            <!-- Breakfast Menu -->
+            <div class="menu-category active" id="breakfast">
+                <div class="category-header">
+                    <h2>Breakfast Delights</h2>
+                    <p>Start your day with our morning specialties</p>
+                </div>
+                <div class="menu-grid">
+                    <div class="menu-item glass-card">
+                        <div class="menu-item-image" style="background-image: url('https://images.unsplash.com/photo-1525351484163-7529414344d8?w=600&q=80');"></div>
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3>Eggs Benedict Royale</h3>
+                                <span class="menu-price">₹220</span>
+                            </div>
+                            <p class="menu-description">Poached eggs on English muffin with smoked salmon, hollandaise sauce, and asparagus</p>
+                            <div class="menu-item-footer">
+                                <div class="menu-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <span>4.9</span>
+                                </div>
+                                <button class="btn btn-small">Add to Order</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item glass-card">
+                        <div class="menu-item-image" style="background-image: url('https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=600&q=80');"></div>
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3>French Toast Elegance</h3>
+                                <span class="menu-price">₹180</span>
+                            </div>
+                            <p class="menu-description">Brioche bread with caramelized bananas, maple syrup, and whipped cream</p>
+                            <div class="menu-item-footer">
+                                <div class="menu-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    <span>4.8</span>
+                                </div>
+                                <button class="btn btn-small">Add to Order</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item glass-card">
+                        <div class="menu-item-image" style="background-image: url('https://images.unsplash.com/photo-1511690743698-d9d85f2fbf38?w=600&q=80');"></div>
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3>Avocado Toast Deluxe</h3>
+                                <span class="menu-price">₹160</span>
+                            </div>
+                            <p class="menu-description">Multigrain toast with smashed avocado, poached eggs, cherry tomatoes, and feta</p>
+                            <div class="menu-item-footer">
+                                <div class="menu-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <span>4.9</span>
+                                </div>
+                                <button class="btn btn-small">Add to Order</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item glass-card">
+                        <div class="menu-item-image" style="background-image: url('https://images.unsplash.com/photo-1484723091739-30a097e8f929?w=600&q=80');"></div>
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3>Gourmet Pancakes</h3>
+                                <span class="menu-price">₹150</span>
+                            </div>
+                            <p class="menu-description">Fluffy pancakes with mixed berries, honey butter, and pure maple syrup</p>
+                            <div class="menu-item-footer">
+                                <div class="menu-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <span>5.0</span>
+                                </div>
+                                <button class="btn btn-small">Add to Order</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Lunch Menu -->
+            <div class="menu-category" id="lunch">
+                <div class="category-header">
+                    <h2>Lunch Selections</h2>
+                    <p>Midday delights to satisfy your appetite</p>
+                </div>
+                <div class="menu-grid">
+                    <div class="menu-item glass-card">
+                        <div class="menu-item-image" style="background-image: url('https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=600&q=80');"></div>
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3>Caesar Salad Supreme</h3>
+                                <span class="menu-price">₹2400</span>
+                            </div>
+                            <p class="menu-description">Crisp romaine, parmesan crisps, grilled chicken, and house-made Caesar dressing</p>
+                            <div class="menu-item-footer">
+                                <div class="menu-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    <span>4.7</span>
+                                </div>
+                                <button class="btn btn-small">Add to Order</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item glass-card">
+                        <div class="menu-item-image" style="background-image: url('https://images.unsplash.com/photo-1585238341710-886a75e83d2b?w=600&q=80');"></div>
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3>Lobster Roll</h3>
+                                <span class="menu-price">₹4200</span>
+                            </div>
+                            <p class="menu-description">Fresh lobster meat on a buttery brioche roll with lemon aioli and herbs</p>
+                            <div class="menu-item-footer">
+                                <div class="menu-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <span>4.9</span>
+                                </div>
+                                <button class="btn btn-small">Add to Order</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item glass-card">
+                        <div class="menu-item-image" style="background-image: url('https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600&q=80');"></div>
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3>Truffle Mushroom Risotto</h3>
+                                <span class="menu-price">₹3800</span>
+                            </div>
+                            <p class="menu-description">Creamy arborio rice with wild mushrooms, truffle oil, and parmesan</p>
+                            <div class="menu-item-footer">
+                                <div class="menu-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <span>5.0</span>
+                                </div>
+                                <button class="btn btn-small">Add to Order</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item glass-card">
+                        <div class="menu-item-image" style="background-image: url('https://images.unsplash.com/photo-1608877907149-a206d75ba011?w=600&q=80');"></div>
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3>Grilled Salmon Fillet</h3>
+                                <span class="menu-price">₹4500</span>
+                            </div>
+                            <p class="menu-description">Atlantic salmon with lemon butter, asparagus, and roasted baby potatoes</p>
+                            <div class="menu-item-footer">
+                                <div class="menu-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <span>4.8</span>
+                                </div>
+                                <button class="btn btn-small">Add to Order</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dinner Menu -->
+            <div class="menu-category" id="dinner">
+                <div class="category-header">
+                    <h2>Dinner Excellence</h2>
+                    <p>Evening masterpieces crafted by our chefs</p>
+                </div>
+                <div class="menu-grid">
+                    <div class="menu-item glass-card">
+                        <div class="menu-item-image" style="background-image: url('https://images.unsplash.com/photo-1558030006-450675393462?w=600&q=80');"></div>
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3>Wagyu Beef Wellington</h3>
+                                <span class="menu-price">₹9500</span>
+                            </div>
+                            <p class="menu-description">Premium wagyu beef in puff pastry with mushroom duxelles and foie gras</p>
+                            <div class="menu-item-footer">
+                                <div class="menu-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <span>5.0</span>
+                                </div>
+                                <button class="btn btn-small">Add to Order</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item glass-card">
+                        <div class="menu-item-image" style="background-image: url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&q=80');"></div>
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3>Lobster Thermidor</h3>
+                                <span class="menu-price">₹7800</span>
+                            </div>
+                            <p class="menu-description">Classic French lobster with creamy cognac sauce and parmesan crust</p>
+                            <div class="menu-item-footer">
+                                <div class="menu-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <span>4.9</span>
+                                </div>
+                                <button class="btn btn-small">Add to Order</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item glass-card">
+                        <div class="menu-item-image" style="background-image: url('https://images.unsplash.com/photo-1559847844-5315695dadae?w=600&q=80');"></div>
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3>Mediterranean Sea Bass</h3>
+                                <span class="menu-price">₹620</span>
+                            </div>
+                            <p class="menu-description">Pan-seared sea bass with lemon butter, roasted tomatoes, and herbs</p>
+                            <div class="menu-item-footer">
+                                <div class="menu-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    <span>4.8</span>
+                                </div>
+                                <button class="btn btn-small">Add to Order</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item glass-card">
+                        <div class="menu-item-image" style="background-image: url('https://images.unsplash.com/photo-1600891964092-4316c288032e?w=600&q=80');"></div>
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3>Duck à l'Orange</h3>
+                                <span class="menu-price">₹680</span>
+                            </div>
+                            <p class="menu-description">Roasted duck breast with orange glaze, seasonal vegetables, and potato gratin</p>
+                            <div class="menu-item-footer">
+                                <div class="menu-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <span>4.9</span>
+                                </div>
+                                <button class="btn btn-small">Add to Order</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item glass-card">
+                        <div class="menu-item-image" style="background-image: url('https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?w=600&q=80');"></div>
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3>Prime Ribeye Steak</h3>
+                                <span class="menu-price">₹720</span>
+                            </div>
+                            <p class="menu-description">12oz ribeye with herb butter, truffle fries, and grilled vegetables</p>
+                            <div class="menu-item-footer">
+                                <div class="menu-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <span>5.0</span>
+                                </div>
+                                <button class="btn btn-small">Add to Order</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item glass-card">
+                        <div class="menu-item-image" style="background-image: url('https://images.unsplash.com/photo-1580959375944-cfb28eee8de2?w=600&q=80');"></div>
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3>Lamb Rack Provençal</h3>
+                                <span class="menu-price">₹760</span>
+                            </div>
+                            <p class="menu-description">Herb-crusted lamb rack with ratatouille and rosemary jus</p>
+                            <div class="menu-item-footer">
+                                <div class="menu-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    <span>4.8</span>
+                                </div>
+                                <button class="btn btn-small">Add to Order</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Drinks Menu -->
+            <div class="menu-category" id="drinks">
+                <div class="category-header">
+                    <h2>Beverage Selection</h2>
+                    <p>Curated wines, cocktails, and beverages</p>
+                </div>
+                <div class="menu-grid">
+                    <div class="menu-item glass-card">
+                        <div class="menu-item-image" style="background-image: url('https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?w=600&q=80');"></div>
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3>Château Margaux 2015</h3>
+                                <span class="menu-price">₹4200</span>
+                            </div>
+                            <p class="menu-description">Premier Grand Cru Classé from Bordeaux, France</p>
+                            <div class="menu-item-footer">
+                                <div class="menu-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <span>5.0</span>
+                                </div>
+                                <button class="btn btn-small">Add to Order</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item glass-card">
+                        <div class="menu-item-image" style="background-image: url('https://images.unsplash.com/photo-1560508801-e9d1d31d4975?w=600&q=80');"></div>
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3>Signature Martini</h3>
+                                <span class="menu-price">₹180</span>
+                            </div>
+                            <p class="menu-description">Premium vodka or gin with dry vermouth and olive garnish</p>
+                            <div class="menu-item-footer">
+                                <div class="menu-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    <span>4.7</span>
+                                </div>
+                                <button class="btn btn-small">Add to Order</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item glass-card">
+                        <div class="menu-item-image" style="background-image: url('https://images.unsplash.com/photo-1587223962930-cb7f31384c19?w=600&q=80');"></div>
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3>Dom Pérignon Vintage</h3>
+                                <span class="menu-price">₹285</span>
+                            </div>
+                            <p class="menu-description">Prestigious champagne from Moët & Chandon</p>
+                            <div class="menu-item-footer">
+                                <div class="menu-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <span>5.0</span>
+                                </div>
+                                <button class="btn btn-small">Add to Order</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item glass-card">
+                        <div class="menu-item-image" style="background-image: url('https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=600&q=80');"></div>
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3>Old Fashioned Premium</h3>
+                                <span class="menu-price">₹220</span>
+                            </div>
+                            <p class="menu-description">Aged bourbon, bitters, sugar, and orange peel</p>
+                            <div class="menu-item-footer">
+                                <div class="menu-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <span>4.9</span>
+                                </div>
+                                <button class="btn btn-small">Add to Order</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Desserts Menu -->
+            <div class="menu-category" id="desserts">
+                <div class="category-header">
+                    <h2>Sweet Indulgences</h2>
+                    <p>Decadent desserts to complete your meal</p>
+                </div>
+                <div class="menu-grid">
+                    <div class="menu-item glass-card">
+                        <div class="menu-item-image" style="background-image: url('https://images.unsplash.com/photo-1563379926898-05f4575a45d8?w=600&q=80');"></div>
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3>Chocolate Soufflé</h3>
+                                <span class="menu-price">₹180</span>
+                            </div>
+                            <p class="menu-description">Warm dark chocolate soufflé with vanilla bean ice cream</p>
+                            <div class="menu-item-footer">
+                                <div class="menu-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <span>5.0</span>
+                                </div>
+                                <button class="btn btn-small">Add to Order</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item glass-card">
+                        <div class="menu-item-image" style="background-image: url('https://images.unsplash.com/photo-1567327072554-7a8fdec81d0f?w=600&q=80');"></div>
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3>Crème Brûlée</h3>
+                                <span class="menu-price">₹150</span>
+                            </div>
+                            <p class="menu-description">Classic French custard with caramelized sugar crust and berries</p>
+                            <div class="menu-item-footer">
+                                <div class="menu-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    <span>4.8</span>
+                                </div>
+                                <button class="btn btn-small">Add to Order</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item glass-card">
+                        <div class="menu-item-image" style="background-image: url('https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?w=600&q=80');"></div>
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3>Tiramisu Classico</h3>
+                                <span class="menu-price">₹160</span>
+                            </div>
+                            <p class="menu-description">Layers of espresso-soaked ladyfingers and mascarpone cream</p>
+                            <div class="menu-item-footer">
+                                <div class="menu-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <span>4.9</span>
+                                </div>
+                                <button class="btn btn-small">Add to Order</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item glass-card">
+                        <div class="menu-item-image" style="background-image: url('https://images.unsplash.com/photo-1519915028121-7d3463d20b13?w=600&q=80');"></div>
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3>Lemon Tart</h3>
+                                <span class="menu-price">₹140</span>
+                            </div>
+                            <p class="menu-description">Tangy lemon curd in buttery pastry with meringue and berries</p>
+                            <div class="menu-item-footer">
+                                <div class="menu-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    <span>4.7</span>
+                                </div>
+                                <button class="btn btn-small">Add to Order</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <div class="footer-logo">
+                        <i class="fas fa-utensils"></i>
+                        <span>Tanduriwala</span>
+                    </div>
+                    <p class="footer-description">Experience the finest culinary journey with our exquisite dishes crafted by award-winning chefs.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="reservations.html">Reservations</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Information</h3>
+                    <ul class="footer-links">
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to receive updates and special offers</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Tanduriwala. All rights reserved. Crafted with passion.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
