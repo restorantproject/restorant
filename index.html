@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Sticky Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <i class="fas fa-utensils"></i>
+                    <span>Tanduriwala</span>
+                </div>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="reservations.html">Reservations</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <button class="mobile-toggle" id="mobileToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-image" style="background-image: url('https://images.unsplash.com/photo-1579027989536-b7b1f875659b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');"></div>
+        <div class="hero-content">
+            <h1 class="hero-title fade-in">Experience Culinary Excellence</h1>
+            <p class="hero-subtitle fade-in-delay">Where Every Meal Becomes a Memorable Journey</p>
+            <div class="hero-buttons fade-in-delay-2">
+                <a href="reservations.html" class="btn btn-primary">Book a Table</a>
+                <a href="menu.html" class="btn btn-secondary">View Menu</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Today's Specials -->
+    <section class="specials section-padding">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Daily Selection</span>
+                <h2 class="section-title">Today's Specials</h2>
+                <p class="section-subtitle">Handcrafted dishes prepared by our master chefs</p>
+            </div>
+            <div class="specials-grid">
+                <div class="special-card glass-card">
+                    <div class="special-image" style="background-image: url('https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600&q=80');"></div>
+                    <div class="special-content">
+                        <div class="special-badge">Chef's Choice</div>
+                        <h3>Truffle Risotto</h3>
+                        <p>Creamy arborio rice infused with white truffle oil, parmesan, and wild mushrooms</p>
+                        <div class="special-footer">
+                            <span class="price">₹450</span>
+                            <button class="btn-icon"><i class="fas fa-heart"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="special-card glass-card">
+                    <div class="special-image" style="background-image: url('https://images.unsplash.com/photo-1558030006-450675393462?w=600&q=80');"></div>
+                    <div class="special-content">
+                        <div class="special-badge">New</div>
+                        <h3>Wagyu Beef Wellington</h3>
+                        <p>Premium wagyu beef wrapped in puff pastry with mushroom duxelles and foie gras</p>
+                        <div class="special-footer">
+                            <span class="price">₹850</span>
+                            <button class="btn-icon"><i class="fas fa-heart"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="special-card glass-card">
+                    <div class="special-image" style="background-image: url('https://images.unsplash.com/photo-1559847844-5315695dadae?w=600&q=80');"></div>
+                    <div class="special-content">
+                        <div class="special-badge">Limited</div>
+                        <h3>Mediterranean Sea Bass</h3>
+                        <p>Pan-seared sea bass with lemon butter sauce, asparagus, and roasted cherry tomatoes</p>
+                        <div class="special-footer">
+                            <span class="price">₹580</span>
+                            <button class="btn-icon"><i class="fas fa-heart"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Dishes -->
+    <section class="popular-dishes section-padding dark-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Guest Favorites</span>
+                <h2 class="section-title">Popular Dishes</h2>
+                <p class="section-subtitle">Most loved by our distinguished guests</p>
+            </div>
+            <div class="dishes-grid">
+                <div class="dish-card">
+                    <div class="dish-image" style="background-image: url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&q=80');"></div>
+                    <div class="dish-info">
+                        <div class="dish-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(4.9)</span>
+                        </div>
+                        <h3>Lobster Thermidor</h3>
+                        <p>Classic French lobster dish with creamy cognac sauce</p>
+                        <div class="dish-footer">
+                            <span class="price">₹720</span>
+                            <button class="btn btn-small">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="dish-card">
+                    <div class="dish-image" style="background-image: url('https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&q=80');"></div>
+                    <div class="dish-info">
+                        <div class="dish-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(5.0)</span>
+                        </div>
+                        <h3>Neapolitan Pizza</h3>
+                        <p>Wood-fired pizza with San Marzano tomatoes and buffalo mozzarella</p>
+                        <div class="dish-footer">
+                            <span class="price">₹280</span>
+                            <button class="btn btn-small">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="dish-card">
+                    <div class="dish-image" style="background-image: url('https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?w=600&q=80');"></div>
+                    <div class="dish-info">
+                        <div class="dish-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(4.8)</span>
+                        </div>
+                        <h3>Grilled Ribeye Steak</h3>
+                        <p>Prime cut ribeye with herb butter and seasonal vegetables</p>
+                        <div class="dish-footer">
+                            <span class="price">₹680</span>
+                            <button class="btn btn-small">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="dish-card">
+                    <div class="dish-image" style="background-image: url('https://images.unsplash.com/photo-1563379926898-05f4575a45d8?w=600&q=80');"></div>
+                    <div class="dish-info">
+                        <div class="dish-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(4.9)</span>
+                        </div>
+                        <h3>Chocolate Soufflé</h3>
+                        <p>Decadent dark chocolate soufflé with vanilla ice cream</p>
+                        <div class="dish-footer">
+                            <span class="price">₹180</span>
+                            <button class="btn btn-small">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chef Introduction -->
+    <section class="chef-section section-padding">
+        <div class="container">
+            <div class="chef-content">
+                <div class="chef-image-wrapper">
+                    <div class="chef-image" style="background-image: url('https://images.unsplash.com/photo-1577219491135-ce391730fb2c?w=800&q=80');"></div>
+                    <div class="chef-badge">
+                        <i class="fas fa-award"></i>
+                        <span>3 Michelin Stars</span>
+                    </div>
+                </div>
+                <div class="chef-info">
+                    <span class="section-label">Meet Our Master</span>
+                    <h2 class="section-title">Chef Jacques Dubois</h2>
+                    <p class="chef-description">With over 25 years of culinary expertise, Chef Jacques brings the art of French cuisine to life. Trained in Paris under renowned master chefs, he combines traditional techniques with innovative flavors to create unforgettable dining experiences.</p>
+                    <div class="chef-achievements">
+                        <div class="achievement">
+                            <h4>25+</h4>
+                            <p>Years Experience</p>
+                        </div>
+                        <div class="achievement">
+                            <h4>150+</h4>
+                            <p>Signature Dishes</p>
+                        </div>
+                        <div class="achievement">
+                            <h4>15+</h4>
+                            <p>International Awards</p>
+                        </div>
+                    </div>
+                    <blockquote class="chef-quote">
+                        "Cooking is not just about feeding people; it's about creating moments that will be remembered forever."
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Customer Reviews -->
+    <section class="reviews-section section-padding dark-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Testimonials</span>
+                <h2 class="section-title">What Our Guests Say</h2>
+                <p class="section-subtitle">Experience shared by our valued customers</p>
+            </div>
+            <div class="reviews-slider" id="reviewsSlider">
+                <div class="review-card glass-card active">
+                    <div class="review-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="review-text">"An absolutely phenomenal dining experience! The attention to detail in every dish is remarkable. Chef Jacques truly is a master of his craft. The truffle risotto was the best I've ever had."</p>
+                    <div class="reviewer">
+                        <div class="reviewer-avatar" style="background-image: url('https://randomuser.me/api/portraits/women/44.jpg');"></div>
+                        <div class="reviewer-info">
+                            <h4>Sarah Mitchell</h4>
+                            <p>Food Critic, Michelin Guide</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-card glass-card">
+                    <div class="review-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="review-text">"Le Gourmet exceeded all expectations. The ambiance is elegant yet comfortable, and the service is impeccable. Every course was a work of art. This is fine dining at its absolute best!"</p>
+                    <div class="reviewer">
+                        <div class="reviewer-avatar" style="background-image: url('https://randomuser.me/api/portraits/men/32.jpg');"></div>
+                        <div class="reviewer-info">
+                            <h4>Michael Chen</h4>
+                            <p>Business Executive</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-card glass-card">
+                    <div class="review-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="review-text">"From the moment we walked in, we were treated like royalty. The wagyu beef wellington was divine, and the chocolate soufflé was the perfect ending. We'll definitely be returning!"</p>
+                    <div class="reviewer">
+                        <div class="reviewer-avatar" style="background-image: url('https://randomuser.me/api/portraits/women/68.jpg');"></div>
+                        <div class="reviewer-info">
+                            <h4>Emily Rodriguez</h4>
+                            <p>Travel Blogger</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-controls">
+                <button class="slider-btn" id="prevReview"><i class="fas fa-chevron-left"></i></button>
+                <div class="slider-dots" id="reviewDots"></div>
+                <button class="slider-btn" id="nextReview"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="gallery-section section-padding">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Visual Journey</span>
+                <h2 class="section-title">Our Gallery</h2>
+                <p class="section-subtitle">A glimpse into our culinary artistry</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item" style="background-image: url('https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600&q=80');"></div>
+                <div class="gallery-item" style="background-image: url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&q=80');"></div>
+                <div class="gallery-item" style="background-image: url('https://images.unsplash.com/photo-1545128485-c400e7702796?w=600&q=80');"></div>
+                <div class="gallery-item" style="background-image: url('https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?w=600&q=80');"></div>
+                <div class="gallery-item" style="background-image: url('https://images.unsplash.com/photo-1579027989536-b7b1f875659b?w=600&q=80');"></div>
+                <div class="gallery-item" style="background-image: url('https://images.unsplash.com/photo-1551218808-94e220e084d2?w=600&q=80');"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location & Contact -->
+    <section class="location-section section-padding dark-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Visit Us</span>
+                <h2 class="section-title">Our Location</h2>
+            </div>
+            <div class="location-content">
+                <div class="map-wrapper">
+                    <div class="map-placeholder">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3766.2573955146963!2d76.77215727521023!3d19.271169681974005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd01986ab123661%3A0xe621a15f40732f79!2sTandooriwala%20Parbhani!5e0!3m2!1sen!2sin!4v1765270338314!5m2!1sen!2sin" width="100%" height="400" style="border:0; border-radius: 20px;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+                <div class="contact-info-grid">
+                    <div class="contact-info-card glass-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h3>Address</h3>
+                        <p>Apna Corner<br>Parbhani, 431401</p>
+                    </div>
+                    <div class="contact-info-card glass-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <h3>Phone</h3>
+                        <p>+91 1234567890<br>+91 1234567890</p>
+                    </div>
+                    <div class="contact-info-card glass-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>Email</h3>
+                        <p>info@gmail.com<br>shaikhazeem.official@gmail.com</p>
+                    </div>
+                    <div class="contact-info-card glass-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <h3>Hours</h3>
+                        <p>Mon-Sat: 10:00 AM - 11:00 PM<br>Sunday: Specials</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <div class="footer-logo">
+                        <i class="fas fa-utensils"></i>
+                        <span>Tandooriwala</span>
+                    </div>
+                    <p class="footer-description">Experience the finest culinary journey with our exquisite dishes crafted by award-winning chefs.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="reservations.html">Reservations</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Information</h3>
+                    <ul class="footer-links">
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to receive updates and special offers</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Tanduriwala. All rights reserved. Crafted with passion.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
